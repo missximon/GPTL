@@ -1,0 +1,10 @@
+Total ranks in communicator=4
+nthreads on rank 0=1
+'N' used for mean, std. dev. calcs.: 'ncalls'/'nthreads'
+'ncalls': number of times the region was invoked across tasks and threads.
+'nranks': number of ranks which invoked the region.
+mean, std. dev: computed using per-rank max time across all threads on each rank
+wallmax and wallmin: max, min time across tasks and threads.
+
+name    ncalls nranks mean_time   std_dev   wallmax (rank  )   wallmin (rank  )
+total     4000      4     0.002     0.000     0.002 (     1)     0.002 (     3)
