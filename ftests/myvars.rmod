@@ -1,0 +1,11 @@
+
+! =================================================================================== 
+! <<Automatically generated for Rose Fortran Separate Compilation, DO NOT MODIFY IT>> 
+! =================================================================================== 
+
+MODULE myvars
+INTEGER :: iam
+INTEGER :: commsize
+!end module myvars
+END MODULE myvars
+
